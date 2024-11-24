@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Mono";
+}
+/*      NAV bar   */
+.img-nav {
+  width: 16px;
+  height: auto;
+}
+.nav {
+  background-color: #00205b;
+  border-radius: 0px;
+  display: flex;
+  align-items: start;
+}
+.nav-container {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  height: 40px;
+  width: auto;
+  gap: 10px;
+}
+.nav-box {
+  padding: 10px;
+  text-align: center;
+  height: 35px;
+  width: auto;
+  background-color: white;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 15px;
+}
+/*      header container    */
+.start-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #8686b038;
+  gap: 25rem;
+  border: none;
+}
+.start-box {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+#img-start {
+  width: auto;
+  height: 26rem;
+  border-radius: 1rem;
+}
+
+/*        main      */
+.article-text {
+  font-family: "IBM Plex Mono";
+}
+
+.flex-box {
+  display: flex;
+  height: 600px;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.box {
+  height: 296px;
+  width: 429px;
+  display: inline-block;
+  color: white;
+  background-color: gray;
+  padding: 10px 10px;
+  border-radius: 5rem;
+}
+#box-2 {
+  text-align: center;
+  padding: 50px;
+}
+#box-3 {
+  padding: 50px;
+}
+#box-3-head {
+  text-align: center;
+}
+.img {
+  width: 10rem;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10rem;
+}
+
+/*      footer    */
+.footer-container {
+  background-color: #00205b;
+  display: flex;
+  align-items: center;
+  height: 300px;
+  width: auto;
+  justify-content: center;
+  gap: 3rem;
+}
+.footer-box {
+  height: 50px;
+  text-align: center;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.footer-contact {
+  text-align: center;
+  background-color: #00205b;
+  color: white;
+}
+.uwu {
+  background-color: blue;
+  color: blue;
+}
